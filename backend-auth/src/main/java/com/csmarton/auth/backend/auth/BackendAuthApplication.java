@@ -1,4 +1,4 @@
-package com.csmarton.auth.backendauth;
+package com.csmarton.auth.backend.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

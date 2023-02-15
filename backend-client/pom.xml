@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.csmarton</groupId>
-	<artifactId>backend-cilent</artifactId>
+	<artifactId>backend-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Backend-cilent</name>
 	<description>Backend Client</description>
@@ -48,6 +48,12 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 
